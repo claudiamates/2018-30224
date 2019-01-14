@@ -378,7 +378,7 @@ public class MainController {
 			}
 			
 			});
-		
+		//NU SE SALVEAZA VALORILE IN TABELELE SQL
 		vehicleView.addIncButtonActionListener(e->{
 			try {
 			Connection myConn1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/managment_inchirieri_masini", "root", "Rdia#98COK");
