@@ -49,7 +49,7 @@ public class DirectorView extends JFrame{
 		  getContentPane().add( okButton);
 		  
 	}
-	
+	//GENEREAZA NULL POINTER EXEPTION
 	public void addOkActionListener(final ActionListener actionListener)
 	  {
 		  okButton.addActionListener(actionListener);
