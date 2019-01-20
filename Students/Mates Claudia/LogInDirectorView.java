@@ -15,7 +15,7 @@ public class LogInDirectorView extends JFrame{
 	  private JButton vizualizareButton;
 	  
 	  
-	  public void LogInDirectorView()
+	  public LogInDirectorView()
 	  {
 		  //FARMEUL NU ARE VALOAREA SETATA CI E DOAR BARA CU OPTIUNILE DE CLOSE SI MINIMIZE
 		  this.setBounds(100,100,630,300);
@@ -44,7 +44,6 @@ public class LogInDirectorView extends JFrame{
 		  
 		  
 	  }
-	  //GENEREAZA NULL POINTER EXEPTION
 	  public void addVizualizareButtonActionListener(final ActionListener actionListener) {
 			vizualizareButton.addActionListener(actionListener);
 		}
